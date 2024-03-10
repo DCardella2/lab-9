@@ -7,9 +7,11 @@
 Hi, I was having an issue running a bash script to test my Java program. I am getting an issue saying `package org.junit does not exist`, and I am not sure how to solve this. If I had to guess, it might be something related to my bash script.
 
 Here is a screenshot of my terminal output: 
+
 ![bash-output](./bash-output.png)
 
 Here's a screenshot of my bash script: 
+
 ![bash-script](./bash-script.png)
 
 
@@ -24,7 +26,6 @@ I tried running the bash script with the new classpath, and here's the output:
 ![successs](./success.png)
 
 It seems like the classpath was the issue, since I'm running a Windows computer and the previous classpath was for a Mac. 
-
 
 ### All setup information 
 
